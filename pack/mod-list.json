@@ -1,0 +1,39 @@
+{
+  "name": "Frontier Adventures",
+  "minecraft": "1.21.1",
+  "loader": "NeoForge",
+  "loaderVersion": "21.1.172",
+  "mods": [
+    {"name":"Iron's Spells 'n Spellbooks","required":true,"category":"magic"},
+    {"name":"Tensura: The Slime Isekai","required":true,"category":"combat-progression"},
+    {"name":"Timeless and Classics Zero (TACZ)","required":true,"category":"ranged-combat"},
+    {"name":"Sophisticated Backpacks","required":true,"category":"utility"},
+    {"name":"Let's Do collection","required":true,"category":"building-and-food"},
+    {"name":"L_Ender's Cataclysm","required":true,"category":"bosses"},
+    {"name":"The Twilight Forest","required":true,"category":"dimension"},
+    {"name":"Eternal Starlight","required":true,"category":"dimension-and-bosses"},
+    {"name":"Deeper and Darker","required":true,"category":"dimension-and-bosses"},
+    {"name":"Relics","required":true,"category":"artifacts"},
+    {"name":"Artifacts","required":true,"category":"artifacts"},
+    {"name":"FTB Library","required":true,"category":"ftb-foundation"},
+    {"name":"FTB Teams","required":true,"category":"multiplayer"},
+    {"name":"FTB Quests","required":true,"category":"progression-guide"},
+    {"name":"JEI","required":true,"category":"recipe-viewer"},
+    {"name":"EMI","required":false,"category":"recipe-viewer-alternative"},
+    {"name":"Serene Seasons","required":true,"category":"world-seasons"},
+    {"name":"Xaero's Minimap","required":true,"category":"navigation"},
+    {"name":"Xaero's World Map","required":true,"category":"navigation"},
+    {"name":"Companion mod: Minecraft Comes Alive (MCA Reborn)","required":false,"category":"companions"},
+    {"name":"Embeddium","required":true,"category":"performance"},
+    {"name":"ModernFix","required":true,"category":"performance"},
+    {"name":"Waystones","required":true,"category":"travel"},
+    {"name":"Apotheosis","required":false,"category":"enchantment-and-loot"}
+  ],
+  "selectionNotes": [
+    "Install only files explicitly marked for Minecraft 1.21.1 and NeoForge.",
+    "Use JEI as the default recipe viewer; add EMI only if current 1.21.1 builds and integrations are compatible.",
+    "Some projects split features into required libraries or content modules; add the dependencies listed by each project's 1.21.1 release page.",
+    "Optional entries are not assumed to have a compatible release; confirm loader, game version, and dependencies before installation.",
+    "TACZ content packs are separate downloads and must match the installed TACZ version."
+  ]
+}

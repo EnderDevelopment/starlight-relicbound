@@ -1,0 +1,41 @@
+plugins {
+    id 'net.neoforged.moddev' version '2.0.107'
+}
+
+group = project.maven_group
+version = project.mod_version
+base {
+    archivesName = project.archives_base_name
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.loader_version
+
+    runs {
+        client { client() }
+        server { server() }
+    }
+
+    mods {
+        frontier_adventures {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // This project is a curated pack manifest and progression guide; install listed mods separately.
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand version: project.version
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Frontier Adventures Progression",
+  "stages": [
+    {"id":"first_steps","order":1,"name":"A Home on the Frontier","focus":["vanilla survival","Let's Do cooking and building","backpack upgrades","seasonal preparation","early spell discovery"],"unlock":"Establish shelter, food storage, and a safe route from spawn.","balance":"Keep starter gear useful; avoid rushing boss dimensions before basic armor and food are ready."},
+    {"id":"spellcraft","order":2,"name":"The First Arts","focus":["Iron's Spells 'n Spellbooks","exploration structures","early relics","FTB quest guidance"],"unlock":"Explore and gather spell materials before taking on major bosses.","balance":"Treat spell progression as a parallel route, not a replacement for exploration and ordinary equipment."},
+    {"id":"awakening","order":3,"name":"Awakening","focus":["Tensura abilities","TACZ ranged combat","companion play","mid-tier artifacts"],"unlock":"Pursue ability and firearm paths through their own materials and encounters.","balance":"Choose encounter-appropriate loadouts; scarce ammunition and ability resources keep both paths meaningful."},
+    {"id":"twilight","order":4,"name":"Beyond the Familiar","focus":["The Twilight Forest","season-aware travel","Xaero maps","boss preparation"],"unlock":"Use mapped exploration and staged gear upgrades to tackle dimension landmarks.","balance":"Do not skip dimension milestones with high-tier loot from another route."},
+    {"id":"cataclysm","order":5,"name":"Cataclysmic Frontiers","focus":["L_Ender's Cataclysm bosses","Eternal Starlight","team preparation","advanced relics"],"unlock":"Challenge boss arenas with upgraded armor, a planned role/loadout, and recovery supplies.","balance":"Bosses are milestones; distribute rewards across the magic, ranged, and melee playstyles."},
+    {"id":"deep_dark","order":6,"name":"The Deep Beyond","focus":["Deeper and Darker","late-game spell and ability builds","rare artifacts"],"unlock":"Enter the late-game dimension after completing earlier exploration and boss objectives.","balance":"Keep unique late-game materials gated to their intended dimension and encounters."},
+    {"id":"mastery","order":7,"name":"Endless Mastery","focus":["repeatable exploration","FTB team quests","optional enchantment depth","collection goals"],"unlock":"Complete optional challenges, seek rare gear, and refine alternate builds.","balance":"Treat uncapped enchantment systems as optional endgame progression; tune costs and limits after testing."}
+  ]
+}
